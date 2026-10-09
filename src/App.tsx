@@ -1,16 +1,11 @@
 import "./App.css";
-import Counter from "./Counter";
-import Greeting from "./Greeting";
-import UserCard from "./UserCard";
+import Caluculator from "./Calculator";
 
 function App() {
   return (
-    <>
-      <Greeting />
-      <Counter />
-      <UserCard name="田中太郎" age={25} />
-      <UserCard name="田中太郎" age={25} />
-    </>
+    <div style={{ padding: "20px" }}>
+      <Caluculator />
+    </div>
   );
 }
 
